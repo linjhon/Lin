@@ -1,0 +1,62 @@
+{
+  "info": {
+    "姓名": "林强",
+    "家乡": "福建省福安市"
+  },
+  "skill": {
+    "Develop Framework": [
+      {
+        "name": "React",
+        "percent": "70",
+        "color": "#00d8ff"
+      },
+      {
+        "name": "Angular",
+        "percent": "60",
+        "color": "#ef1a14"
+      },
+      {
+        "name": "JQuery",
+        "percent": "85",
+        "color": "#0769AD"
+      },
+      {
+        "name": "Vue",
+        "percent": "80",
+        "color": "#42b983"
+      }
+    ],
+    "UI Framework": [
+      {
+        "name": "Bootstrap",
+        "percent": "80",
+        "color": "#6f5499"
+      },
+      {
+        "name": "Ionic",
+        "percent": "70",
+        "color": "#3374de"
+      },
+      {
+        "name": "Yo",
+        "percent": "65",
+        "color": "#333"
+      },
+      {
+        "name": "jQuery EasyUI",
+        "percent": "75",
+        "color": "#2d3e50"
+      },
+      {
+        "name": "jQueryUI",
+        "percent": "75",
+        "color": "#a64423"
+      },
+      {
+        "name": "Element",
+        "percent": "75",
+        "color": "#20a0ff"
+      }
+    ]
+  }
+}
