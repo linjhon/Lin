@@ -13,7 +13,7 @@ var Project = React.createClass({
     },
     componentWillMount:function(){
         $.ajax({
-            url:'//linqiang.online/prd/php/project.php',            
+            url:'http://linqiang.online/prd/php/project.php',            
         }).done(res=>{            
             this.setState({
                 project:res

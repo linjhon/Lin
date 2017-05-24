@@ -10,7 +10,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname,'prd'),
-        publicPath: '/prd/',
+        publicPath: 'http://linqiang.online/prd/',
         filename: "[name].[chunkhash].js",
 		chunkFilename: "[chunkhash].js"
     },

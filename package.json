@@ -31,6 +31,7 @@
     "server": "sudo http-server -c-1 -p 80",
     "hot": "webpack-dev-server --hot --inline",
     "data": "cd src\\public\\data && json-server --watch info.json",
+    "build":"webpack -p --config webpack.prd.config.js",//打包压缩
     "out": "natapp -authtoken=e31f0ed9a56805ab"
   },
   "author": "Lin",

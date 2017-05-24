@@ -12,7 +12,7 @@ var MineInfo = React.createClass({
     },
     componentWillMount:function(){
         $.ajax({
-            url:'//linqiang.online/prd/php/user.php'
+            url:'http://linqiang.online/prd/php/user.php'
         }).done(res=>{
             //var data=JSON.parse(res)
             console.log(res)
@@ -24,7 +24,7 @@ var MineInfo = React.createClass({
         console.log('2我请求了信息页')
         $.ajax({
             method:'post',
-            url: '//linqiang.online/prd/php/getsign.php',
+            url: 'http://linqiang.online/prd/php/getsign.php',
             data: {
                 url: window.location.href
             },
@@ -75,7 +75,7 @@ var MineInfo = React.createClass({
     addFlower:function(){
         //添加之前请求数据库;
         $.ajax({
-            url:'//linqiang.online/prd/php/user.php'      
+            url:'http://linqiang.online/prd/php/user.php'      
         }).done(res=>{
             //var data=JSON.parse(res)
             console.log(res)
@@ -90,7 +90,7 @@ var MineInfo = React.createClass({
             },function(){
                 //追加到数据库;
                 $.ajax({
-                    url: '//linqiang.online/prd/php/user.php',
+                    url: 'http://linqiang.online/prd/php/user.php',
                     data: {
                         flower:this.state.flower
                     }
