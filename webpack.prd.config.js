@@ -9,8 +9,8 @@ module.exports = {
        	'lib': ['react', 'react-dom','react-router']
     },
     output: {
-        path: path.resolve(__dirname,'prd'),
-        publicPath: 'http://linqiang.online/prd/',
+        path: path.resolve(__dirname,'dist'),
+        publicPath: '/',
         filename: "[name].[chunkhash].js",
 		chunkFilename: "[chunkhash].js"
     },
@@ -43,6 +43,9 @@ module.exports = {
 		]
 	},
 	plugins: [
+		new webpack.DefinePlugin({
+			'LIN_API':'"http://www.linjhon.com"'
+		}),
 		new webpack.optimize.CommonsChunkPlugin({
             names: ['lib', 'manifest']
         }),
