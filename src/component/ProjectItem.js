@@ -8,7 +8,7 @@ var ProjectItem = React.createClass({
                     <div className="comment-body boxed  clearfix">
                         <div className="comment-arrow"></div>
                         <div className="comment-avatar">
-                            <div className="avatar"><img src={this.props.project[i].image} alt=""/></div>
+                            <div className="avatar"><img src={LIN_API+this.props.project[i].image} alt=""/></div>
                         </div>
                         <div className="comment-text">
                             <div className="comment-author clearfix">

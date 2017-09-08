@@ -12,7 +12,7 @@ var Work = React.createClass({
     },
     componentWillMount:function(){
         $.ajax({
-            url:'http://linqiang.online/prd/php/work.php', 
+            url:'/php/work.php', 
         }).done(res=>{            
             this.setState({
                 work:res

@@ -12,7 +12,7 @@ var Home = React.createClass({
     componentWillMount:function(){
         var vm=this;
         $.ajax({
-            url:'./prd/data/info.json',   
+            url:'./data/info.json',   
         }).done(function(res){
             vm.setState({
                 info:res.skill
