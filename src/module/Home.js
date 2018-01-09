@@ -35,7 +35,7 @@ var Home = React.createClass({
         
         return (
             <div className="main">
-                <Header title="首页" left={false}/>
+                <Header title="Home" left={false}/>
                 <div className="content">
                     <div className="container">
                         {content}
