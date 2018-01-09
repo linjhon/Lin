@@ -3,4 +3,5 @@ node_modules
 .DS_Store
 npm-bug
 /dist
-src/public/php
+/php
+/src/public/php
