@@ -35,7 +35,7 @@ var Home = React.createClass({
         
         return (
             <div className="main">
-                <Header title="Home" left={false}/>
+                <Header title="Home1" left={false}/>
                 <div className="content">
                     <div className="container">
                         {content}
